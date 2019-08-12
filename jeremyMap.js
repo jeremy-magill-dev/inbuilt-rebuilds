@@ -1,1 +1,9 @@
-function jeremyMap () {}
+function jeremyMap (array, callBack) {
+  var returnArray = []
+
+  for (let i = 0; i < array.length; i++) {
+    returnArray.push(callBack(array[i]))
+  }
+
+  return returnArray
+}
