@@ -16,3 +16,7 @@ function jeremyMap (array, callBack) {
 function multiplyData (data, multiplier) {
   return data * multiplier
 }
+
+const testArray = [1, 2, 3, 4]
+
+console.log(jeremyMap())
