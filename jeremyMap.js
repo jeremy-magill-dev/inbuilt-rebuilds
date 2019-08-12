@@ -1,3 +1,8 @@
+module.exports = {
+  jeremyMap,
+  multiplyData
+}
+
 function jeremyMap (array, callBack) {
   var returnArray = []
 
@@ -6,4 +11,8 @@ function jeremyMap (array, callBack) {
   }
 
   return returnArray
+}
+
+function multiplyData (data, multiplier) {
+  return data * multiplier
 }
